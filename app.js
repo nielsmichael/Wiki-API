@@ -92,6 +92,32 @@ app
         }
       }
     );
+  })
+
+  .patch(function (req, res) {
+    Article.findOneAndUpdate(
+      { title: req.params.articleTitle },
+      { $set: req.body },
+      function (err) {
+        if (!err) {
+          res.send("Updated article");
+        } else {
+          console.log(err);
+          res.send("Failed to update.");
+        }
+      }
+    );
+  })
+
+  .delete(function (req, res) {
+    Article.deleteOne({ title: req.params.articleTitle }, function (err) {
+      if (!err) {
+        res.send("Article deleted");
+      } else {
+        console.log(err);
+        res.send("Failed to delete");
+      }
+    });
   });
 
 //establish PORT process.env.PORT ||

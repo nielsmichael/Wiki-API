@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "62274ed8b05f39726ba34d30",
+        "title": "REST",
+        "content": "REST is short for REpresentational State Transfer. It's an architectural style for designing APIs."
+    },
+    {
+        "_id": "62274f8cb05f39726ba34d6f",
+        "title": "API",
+        "content": "API stands for Application Programming Interface. It is a set of subroutine definitions, communication protocols, and tools for building software. In general terms, it is a set of clearly defined methods of communication among various components. A good API makes it easier to develop a computer program by providing all the building blocks, which are then put together by the programmer."
+    },
+    {
+        "_id": "62274f9fb05f39726ba34d78",
+        "title": "Bootstrap",
+        "content": "This is a framework developed by Twitter that contains pre-made front-end templates for web design"
+    },
+    {
+        "_id": "62274fadb05f39726ba34d7f",
+        "title": "DOM",
+        "content": "The Document Object Model is like an API for interacting with our HTML"
+    },
+    {
+        "_id": "622bfc4116d85365e580aa9f",
+        "title": "Jack Bauer",
+        "content": "The city of Los Angeles once named a street after Jack Bauer in gratitude for his saving the city several times. They had to rename it after people kept dying when they tried to cross the street. No one crosses Jack Bauer and lives.",
+        "__v": 0
+    },
+    {
+        "_id": "62491f7cad049a5f5849dae1",
+        "__v": 0
+    },
+    {
+        "_id": "62492096c0b32a5e6b4ac746",
+        "title": "John Wayne",
+        "content": "Chuck Norris before Chuck Norris was Chuck Norris",
+        "__v": 0
+    }
+]

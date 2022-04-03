@@ -75,6 +75,23 @@ app
         }
       }
     );
+  })
+
+  .put(function (req, res) {
+    Article.findOneAndUpdate(
+      //update() is depracated and updateOne() does not allow overwrites
+      { title: req.params.articleTitle },
+      { title: req.body.title, content: req.body.content },
+      { overwrite: true },
+      function (err) {
+        if (!err) {
+          res.send("Updated article");
+        } else {
+          console.log(err);
+          res.send("Failed to update.");
+        }
+      }
+    );
   });
 
 //establish PORT process.env.PORT ||
